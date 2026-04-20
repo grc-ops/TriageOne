@@ -1,0 +1,5 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.block-container {padding-top: 2rem !important;}
+div[data-testid="stMetric"] {background: linear-gradient(135deg, #0f1923 0%, #1a2733 100%); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 16px 20px;}
+div[data-testid="stMetric"] label {color: rgba(255,255,255,0.5) !important; font-size: 13px !important;}
