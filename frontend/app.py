@@ -19,11 +19,11 @@ with st.sidebar:
     st.caption("Backend: FastAPI · Frontend: Streamlit")
 
 if page == "🔍 IOC Triage":
-    from frontend.pages.triage_page import render
+    from pages.triage_page import render
     render()
 elif page == "📊 Monitoring Dashboard":
-    from frontend.pages.dashboard_page import render
+    from pages.dashboard_page import render
     render()
 elif page == "📜 History":
-    from frontend.pages.history_page import render
+    from pages.history_page import render
     render()
