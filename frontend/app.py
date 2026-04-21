@@ -13,6 +13,7 @@ with st.sidebar:
         <span style="font-size:2.2rem;">🛡️</span>
         <h2 style="margin:0.3rem 0 0;font-size:1.5rem;font-weight:700;">TriageOne</h2>
         <p style="color:rgba(255,255,255,0.45);font-size:0.8rem;margin:0;">v1.3 — IOC Triage & Cyber-Risk Monitor</p>
+        <p style="color:rgba(255,255,255,0.3);font-size:0.75rem;margin:0.5rem 0 0;">Built by Mandar Gangurde</p>
     </div><hr style="border-color:rgba(255,255,255,0.06);margin:1rem 0;">""", unsafe_allow_html=True)
     page = st.radio("Navigation", ["🔍 IOC Triage", "📊 Monitoring Dashboard", "📜 History"], label_visibility="collapsed")
     st.markdown("---")
