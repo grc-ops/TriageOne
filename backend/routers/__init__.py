@@ -1,2 +1,3 @@
 from backend.routers.triage import router as triage_router  # noqa
 from backend.routers.dashboard import router as dashboard_router  # noqa
+from backend.routers.filters import router as filters_router  # noqa
